@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compiling": "node-sass sass/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AYB-cmd/workshop-sass.git"
+  },
+  "author": "Ayoub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AYB-cmd/workshop-sass/issues"
+  },
+  "homepage": "https://github.com/AYB-cmd/workshop-sass#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
